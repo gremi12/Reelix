@@ -167,41 +167,41 @@ html {
 /* top button container */
 
 .top-button-container {
-    position: absolute;
+    display: block;
+    position: fixed;
     width: 80px;
     height: 80px;
-    background-color: white;
-    border: 2px solid white;
+    border: 3px solid black;
     border-radius: 100%;
-    left: 71%;
-    bottom: 25px;
+    left: 90%;
+    bottom: 50px;
     right: 100px;
+    
 }
 
 .top-button-container a{
+    display: block;
     text-decoration: none;
-}
-
-.top-button {
-    margin-top: 17px;
-    text-align: center;
     color: black;
 }
 
-.top-button i {
-    display: flex;
-    flex-wrap: wrap;
-    justify-self: center;
-    margin-left: 5px;
+.top-button {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
 }
-
 
 /* footer styling */
 
 footer {
     background-color: white;
-    bottom: 0;
+    margin-top: 60px;
     position: relative;
+    z-index: -1;
+}
+
+.footer-elements {
+    height: 250px;
 }
 
 footer i {
@@ -211,20 +211,21 @@ footer i {
 
 footer .logo-footer {
     position: absolute;
-    top: 50px;
+    top: 75px;
     width: 70px;
-    left: 40px;
+    left: 20px;
 }
 
 .footer-icons a {
     color: black;
     position: relative;
-    top: 140px;
+    top: 150px;
     gap: 20px;
 }
 
 .footer-elements a{
     margin-top: 100px;
+    position: relative;
 }
 
 .footer-elements:hover {
@@ -238,14 +239,14 @@ footer .logo-footer {
 }
 
 .line {
-    margin-top: 70px;
+    margin-top: 90px;
     margin-left: 17px;
     position: relative;
 }
 
 .text-copyright {
     position: relative;
-    margin-top: 85px;
+    margin-top: 40px;
     margin-bottom: 0;
 }
 
@@ -278,7 +279,7 @@ footer .logo-footer {
 /* register text styling */
 
 .register-text {
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 .register-text h1 {
@@ -293,7 +294,7 @@ footer .logo-footer {
 /* form styling */
 
 .forms-container {
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 60px;
 }
 
@@ -305,7 +306,7 @@ footer .logo-footer {
 }
 
 .input-text-form::placeholder {
-      color: black;
+    color: black;
 }
 
 .input-text-form {
@@ -334,6 +335,10 @@ footer .logo-footer {
     background-color: black;
     margin-top: -30px;
     margin-bottom: 30px;
+}
+
+.submit-button:hover {
+    opacity: 0.8;
 }
 
 .submit-button a {
