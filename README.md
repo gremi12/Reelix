@@ -3,3 +3,7 @@ Sterge toate foldere  descarcate si tot ce ti-am trimis
 2. git add .
 3. git commit -m "am schimbat pagina si mentionezi care" (trebuie sa scrii un mesaj logic nu ceva la intamplare)
 4. git push
+
+In cazul in care ceva nu merge da-mi mesaj.
+
+Happy Coding! :>
