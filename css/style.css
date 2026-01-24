@@ -160,8 +160,8 @@ html {
 
 .container-cards-2 {
     margin-top: 40px;
-    gap: 130px;
     margin-bottom: 40px;
+    gap: 110px;
 }
 
 /* top button container */
@@ -169,14 +169,13 @@ html {
 .top-button-container {
     display: block;
     position: fixed;
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     border: 3px solid black;
     border-radius: 100%;
     left: 90%;
     bottom: 50px;
     right: 100px;
-    
 }
 
 .top-button-container a{
@@ -186,7 +185,7 @@ html {
 }
 
 .top-button {
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
     font-size: 30px;
 }
@@ -238,7 +237,7 @@ footer .logo-footer {
     text-decoration: none;
 }
 
-.line {
+.line-footer {
     margin-top: 90px;
     margin-left: 17px;
     position: relative;
@@ -296,6 +295,12 @@ footer .logo-footer {
 .forms-container {
     margin-top: 50px;
     margin-bottom: 60px;
+}
+
+.forms-container p {
+    color: red;
+    display: none;
+    position: absolute;
 }
 
 .forms-container .input-text-form {

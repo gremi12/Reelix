@@ -8,4 +8,3 @@ In cazul in care ceva nu merge da-mi mesaj.
 
 Happy Coding! :>
 
-testtesttest
